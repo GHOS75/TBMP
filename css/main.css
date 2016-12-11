@@ -37,6 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
   font-weight: 300;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 h2 {
@@ -81,24 +82,16 @@ h2 {
 
 .social-icons a {
   font-size: 18px;
-  color: #dddddf;
+  color: #192064;
   padding-left:20px;  
 }
 
 .social-icons .fa-facebook:hover {
-  color: #3B5997
+  color: #e19d36
 }
 
-.social-icons .fa-twitter:hover {
-  color:#29C5F6
-}
-
-.social-icons .fa-google-plus:hover {
-  color:#D13D2F
-}
-
-.social-icons .fa-youtube:hover{
-  color: #ec5538
+.social-icons .fa-instagram:hover {
+  color:#e19d36
 }
 
 .navbar-brand {
@@ -106,7 +99,7 @@ h2 {
   height: 90px;
   margin-bottom: 20px;
   position: relative;
-  width: 297px;
+  width: 307px;
 }
 
 .navbar-brand img {
@@ -347,8 +340,6 @@ h2 {
 #event {
   background-color: #dddddf;
   position: relative;
-  background-repeat: no-repeat;
-  border-bottom: 2px solid #192064;
 }
 
 #event h2 {
@@ -407,7 +398,7 @@ h2 {
 **************************/
 
 #about {
-  background-color: #dddddf;  
+  background-color: #192064;  
   position: relative;  
   width: 100%;
   display: flex;
@@ -436,19 +427,22 @@ h2 {
 .about-content p {
   font-size: 17px;
   font-family: 'Dosis',sans-serif;
-  color: #192064;
+  color: #dddddf;
+  text-align: center;
+  border: 2px solid #dddddf;
+  padding: 10px;
 }
 
 #about .btn-primary {
-  background-color: #192064;
-  color: #dddddf;
+  background-color: #dddddf;
+  color: #192064;
   text-transform: capitalize;
   border: none;
   margin-top: 28px;
 }
 
 #about .btn-primary:hover {
-  background-color: #212976;
+  background-color: #a3a3a3;
 }
 
 /*************************
@@ -456,7 +450,7 @@ h2 {
 **************************/
 
 #sponsor {
-  background-color: #192064;
+  background-color: #dddddf;
   position: relative;
   padding-bottom: 70px;
 }
@@ -471,9 +465,18 @@ h2 {
   color: #e19d36;
 }
 
+#sponsor h3 {
+  margin-top: 0;
+  color: #192064;
+}
+
+#sponsor p {
+  color: #192064;
+}
+
 .sponsor-control-left, 
 .sponsor-control-right {
-  color: #dddddf;
+  color: #192064;
   font-size: 24px;
   position: absolute;
   top: 20%;
@@ -507,6 +510,10 @@ h2 {
 .contact-section {
   background-color: #dddddf;  
   position: relative;
+  background-image: url(../images/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .ear-piece {
