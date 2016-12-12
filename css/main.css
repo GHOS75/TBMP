@@ -442,7 +442,7 @@ h2 {
 }
 
 #about .btn-primary:hover {
-  background-color: #a3a3a3;
+  background-color: #e19d36;
 }
 
 /*************************
@@ -528,7 +528,7 @@ h2 {
 
 #contact h3 {
   text-transform:inherit;
-  color: #373737; 
+  color: #e19d36; 
 }
 
 #contact-section h3 {  
@@ -538,6 +538,10 @@ h2 {
 #contact address {
   font-size: 18px;  
   color: #373737; 
+}
+
+#contact p {
+  color: #192064;
 }
 
 .contact-text {
@@ -580,11 +584,16 @@ h2 {
 }
 
 #contact-section .btn-primary:hover {
-  background-color: #212020;
+  background-color: #e19d36;
   color: #dddddf;
 }
 
-
+hr {
+  border: none;
+  height: 2px;
+  background-color: #192064;
+/*  width: 80%;*/
+}
 
 /*************************
 ******Footer CSS****
@@ -602,7 +611,8 @@ h2 {
 }
 
 #footer a:hover {
-  color:#1B7B98
+  color:#dddddf;
+  border-bottom: 1px solid #dddddf;
 }
 
 
